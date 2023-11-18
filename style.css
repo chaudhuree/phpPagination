@@ -41,3 +41,8 @@ a.active {
 .page-numbers {
   display: inline-block;
 }
+.disabled-page{
+  pointer-events: none;
+  cursor: default;
+  color: #aaa !important;
+}
